@@ -1,0 +1,1229 @@
+* {
+    padding: 0px;
+    margin: 0px;
+     box-sizing: border-box; 
+    font-family: arial;
+    color: white;
+}
+
+html {
+    overflow-x: hidden;
+}
+ /* create a navbar  */
+ .navbar {
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+     
+}
+
+/* create amazon logo */
+ .nav-logo {
+    height: 70px;
+    width: 100px;
+    /* background-color: blue; */
+}
+.logo {
+    height:50px;
+    width:70%;
+    /* background-color:red; */
+    background-image: url(amazon.in.png);
+    background-size: 60px;
+    width:80px;
+    height:50px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color:#0f1111;
+    margin-left: 9px; 
+    margin-top: 5px;
+} 
+
+/* .box1 {
+    background-color: aqua;
+    color: green;
+    height:100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    padding: 20px;
+}
+ 
+.box2 {
+    background-color: blue;
+    color: brown;
+    height:100px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-image: url(amazon.in.png);
+    background-size: cover;
+    background-color:white;
+    /* padding: 20px; */
+
+.border:hover {
+    border:2px solid white
+} 
+
+.border {
+    border: 2px solid transparent;
+}
+
+/* nav-second address */
+
+.add-frst {
+    color : #cccccc;
+    margin-left: 14px; 
+    font-size: 0.7rem; 
+}
+
+.add-second {
+    display: flex;
+}
+
+.add-sec {
+    color: #f3f3f3;
+    margin-left: 1px;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+
+/* nav-third inputbox */
+
+.nav-third {
+    /* background-color: orange; */
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    /* justify-content: center; */
+}
+
+.nav-select {
+    color: black;
+    background-color: #cccccc;
+    font-size: 0.6rem;
+    width: 60px;
+    text-align: center;
+    border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* border-radius: 5px; */
+}
+
+.nav-input {
+    width: 100%;
+    /* border-radius: 4px; */
+    border: none;
+    background-color: #f3f3f3e6;   
+    color: black;
+
+}
+
+.nav-button {
+    background-color: orange;
+    width:50px;
+    border:none; 
+    border-top-right-radius: 5px;   
+    border-bottom-right-radius: 5px; 
+}
+
+.nav-button:active {
+    border: 1.5px solid rgb(128, 128, 128);
+    font-size: medium;
+}
+
+.nav-button i {
+    color:black;
+}
+
+.nav-third:active {
+    border: 1.5px solid orange;
+}
+
+/* nav-forth flag */
+
+.nav-flag {
+    background-image: url("america flag.webp");
+    height: 40px;
+    width: 50px;
+    background-size: 2rem;;
+    /* background-color: grey; */
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.nav-country {
+    display:flex;
+}
+
+.language {
+    color: white;
+    background-color: black;
+    border:none;
+    position: relative;
+    left: 0px;
+}
+
+/* nav-five sign in options */
+
+.sign-in {
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.acc-list {
+    color: white;
+    background-color: #0f1111;
+    border: none;
+    font-weight: 1000;
+}
+
+/* nav-6 returns and order */
+
+.returns{
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.orders {
+    color: white;
+    background-color: #0f1111;
+    border: none;
+    font-weight: 1000;
+}
+
+/* nav-last cart icon */
+
+.cart-icon:active {
+    border:1px solid grey;
+}
+
+.cart-icon {
+    height:20px;
+    width: 100%;
+}
+
+/* {2[pannel casting]} */
+
+.pannel {
+    background-color: #222f3d;
+    display: flex;
+    height: 30px;
+    position: relative;
+    width: 100%;
+    top: 60px;
+}
+
+.pannel-items p {
+    display: inline;
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+} 
+
+.prime {
+    position:relative;
+    top: 5px;
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+}
+
+.pannel-all {
+    margin-left: 40px;
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    height:0px;
+}
+
+.pannel-all border {
+    height: 20px;
+    width: 30px;
+}
+
+
+.prime {
+    background-color: #222f3d;
+    border: none;
+}
+
+.pannel-electronics {
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+    left: 200px;
+    height:20px;
+}
+
+.pannel-all-span {
+    font-size: 14px;
+    position: relative;
+    bottom: 27px;
+    left: 20px;
+
+}
+
+.border:active {
+    color: #cccccc;
+}
+
+  /* main section casting */
+
+main {
+    background-image: url("hero2.jpg"); 
+    height: 200rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 60px;
+    background-color: #cccccc
+} 
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 320px;
+    z-index: 1;
+    width: 100%;
+     /* flex-wrap: wrap; */
+    /* gap: 20px;  */
+
+}
+
+.main-sec {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 350px;
+    z-index: 1;
+    width: 100%;
+    /* align-self: 40px; */
+}
+
+.main-thrd {
+    position: relative;
+    background-color: green;
+    top: 400px;
+    width: 96%;
+    left: 24px;
+}
+
+.huge-div {
+    border: 1px solid red;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 100%;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+
+.main-fourth {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 430px;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.main-five {
+    position: relative;
+    background-color: green;
+    top: 470px;
+    width: 96%;
+    left: 24px;
+}
+
+.main-six {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 500px;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.main-seven {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 550px;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-div {
+    height: 400px;
+    width: 280px;
+    border: 1px solid red;
+    background-color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#one-one {
+    height: 96px;
+    width: 110px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    background-image: url(phone1.jpg);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+}
+
+
+#one-two {
+    height: 96px;
+    width: 110px;
+    /* border: 1px solid orange; */
+    position: absolute;
+    top: 90px;
+    left: 180px;
+    background-image: url(phone2.jpg);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+
+}
+
+#one-three {
+    height: 96px;
+    width: 110px;
+    /* border: 1px solid green; */
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    background-image: url(phone3.jpg);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+
+}
+
+#one-four {
+    height: 96px;
+    width: 110px;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 240px;
+    left: 180px;
+    background-image: url(phone4.jpg);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+
+}
+
+h2 {
+    color: #0f1111;
+    font-size: 21px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+    left: 10px
+}
+
+.price {
+    color: #0f1111;
+    font-size: 12px;
+    position: absolute;
+    top: 100px;
+}
+
+.price a {
+    color: #0f1111;
+    display: flex;
+}
+
+.mid-a {
+    position: relative;
+    bottom: 13px;
+    left: 50px;
+}
+
+#price-frst {
+    position: relative;
+    bottom: 10px;
+    right: 3px;
+}
+
+#mid-one {
+    position: relative;
+    left: 50px;
+    bottom: 13.5px;
+}
+
+#mid-two {
+    position: relative;
+    left: 64px;
+}
+
+#mid-three {
+    position: relative;
+    left: 57px;
+    bottom: 14px;
+}
+
+#mid-four {
+    position: relative;
+    left: -1px;
+    bottom: -3px;
+}
+
+#price-sec {
+    position: relative;
+    bottom: 10px;
+}
+
+#price-three {
+    position: relative;
+    bottom: 10px;
+}
+
+#price-four {
+    position: relative;
+    bottom: 10px;
+    left: 36px;
+}
+
+/* main div first end */
+
+/* main div 2 start */
+
+
+#two-one {
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 30px;
+    left: 20px;
+    background-image: url("game1.jpg");
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+}
+
+#three-one {
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 40px;
+    left: 20px;
+    background-image: url("jeans1.jpg");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+
+}
+
+#four-one{
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 9px;
+    left: 20px;
+    background-image: url("pc2.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+
+}
+
+
+#four-two{
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    background-image: url("xbox1.jpg");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+
+}
+
+/* main-sec */
+
+#main-sec-one{
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    background-image: url("suitcases.jpg");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-sec-two{
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    background-image: url("experiments/watch.jpg");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    top: 15%;
+
+}
+
+
+#main-sec-three{
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    background-image: url("experiments/pc1.jpg");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    top: 15%;
+
+}
+
+
+#main-sec-four {
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    background-image: url("experiments/t\ shrit\ 1.jpg");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    top: 15%;
+
+}
+
+#main-four-one {
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    background-image: url("experiments/pc1.jpg");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    top: 15%;
+
+}
+
+
+#main-four-two {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 16px;
+    background-image: url("experiments/laptop1.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-four-three {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 15px;
+    background-image: url("kitchen.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-four-four {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 16px;
+    background-image: url("look\ best.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-six-one {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 16px;
+    background-image: url("gamming.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-six-two {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 16px;
+    background-image: url("toy.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-six-three {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 16px;
+    background-image: url("kitchen2.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-six-four {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 16px;
+    background-image: url("look\ best.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+#main-seven-one {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 10px;
+    background-image: url("$n.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-seven-two {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    background-image: url("easyupdates.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-seven-three {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 15px;
+    background-image: url("suitcases.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+
+#main-seven-four {
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 130px;
+    left: 17px;
+    background-image: url("school.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    top: 10%;
+
+}
+
+#huge-div-one {
+    height: 200px;
+    width: 200px;
+    background-image: url("deals.jpg");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 170px;
+    border: 1px solid green;
+    /* left: 10px; */
+}
+
+
+#huge-div-two {
+    height: 200px;
+    width: 200px;
+    background-image: url("book1.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 150px;
+    /* border: 1px solid green; */
+}
+
+
+#huge-div-three {
+    height: 200px;
+    width: 200px;
+    background-image: url("book\ 2.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 130px;
+    /* border: 1px solid green; */
+}
+
+
+#huge-div-four {
+    height: 200px;
+    width: 200px;
+    background-image: url("book3.jpg");
+    background-position: center;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 100px;
+    /* border: 1px solid green; */
+}
+
+
+#huge-div-five {
+    height: 200px;
+    width: 150px;
+    background-image: url("book4.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 60px;
+    /* border: 1px solid green; */
+    /* left: 10px; */
+} 
+
+/* huge div 2 */
+
+
+#huge-sec-one {
+    height: 200px;
+    width: 300px;
+    background-image: url("top1.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 150px;
+    border: 1px solid green;
+   
+}
+
+
+#huge-sec-two {
+    height: 200px;
+    width: 300px;
+    background-image: url("top2.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    right: 60px;
+    border: 1px solid green;  
+}
+
+
+#huge-sec-three {
+    height: 200px;
+    width: 300px;
+    background-image: url("top3.jpg"); 
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    /* right: 10px; */
+    border: 1px solid green;
+    left: 20px;
+   
+}
+
+/* lets creating our sign in section */
+
+.sign-in-section {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+.sign-in-content {
+    height: 180px;
+    width: 100%;
+    border: 0.5px solid rgb(189, 183, 183);
+    position: relative;
+    top: 20px;
+    /* left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    color: #000000;
+    font-size: 22px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
+
+.sign-in button {
+    height: 40px;
+    width: 180px;
+    position: relative;
+    top: 45px;
+    right: 260px;
+    border-top-left-radius: 20%; 
+    border-top-right-radius: 20%; 
+    border-bottom-right-radius: 20%; 
+    border-bottom-left-radius: 20%; 
+    font-size: 14px;
+    color: #0f1111;
+    background-color: #ffD814;
+     /* left: 1px;  */
+}
+
+.sign-in button:hover {
+    background-color: rgb(252, 185, 60);
+}
+
+.sign-in button:active {
+    background-color: orange;
+}
+
+.sign-in p  {
+    color: black;
+    font-size: 12px;
+    position: relative;
+    top: 50px;
+    right: 250px;
+    /* left: 8px; */
+}
+
+
+.sign-in a  {
+    color: blue;
+    font-size: 12px;
+    position: relative;
+    top: 1px;
+    right: 2px;
+    left: 8px;
+}
+
+
+/* lets creating our footer */
+
+.footer-frst {
+    height: 70px;
+    width: 100%;
+    background-color: #37475A;
+    /* position: relative; */
+    /* top: 90px; */
+}
+
+.footer-frst:hover {
+    background-color: #3f536b;
+    
+}
+
+.footer-content {
+    height: 700px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* display: block; */
+
+}
+
+.unord a {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #DDDD
+
+}
+
+.para {
+    margin-top: 80px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.footer-line {
+    border: 1px solid #3a4553;
+    position: relative;
+    bottom:500px; 
+    height: 130px; 
+}
+
+.footer-logo {
+    background-image: url("amazon4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 90px;
+    margin-left: 390px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.footer-copy-right {
+    background-color: #131A22;
+    /* height: 150px; */
+    width: 100%;
+    border: none;
+    position: relative;
+    bottom: 70px;
+    height: 300px;
+} 
+
+.footer-section {
+    height: 100px;
+}
+
+.footer-icon {
+    color: #cccccc;
+    background-color: transparent;
+    border:  0.5px solid #cccccc;
+    position: relative;
+    left: 600px;
+    bottom: 45px;
+    height: 40px;
+    width: 190px;
+    text-align: center;
+    font-size: 13px;
+
+}
+
+.india {
+    background-image: url(india.jpg);
+    background-size: 100%;
+    height: 20px;
+    width: 30px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 850px;
+    bottom: 70px;
+}
+
+.footer-india {
+    position: relative;
+    left: 890px;
+    bottom: 90px;
+    font-size: 13px;
+    color: #cccccc;
+
+}
+
+.footer-india a {
+    color: #cccccc
+}
+
+
+.unrd a {
+    color: #999999;
+    font-size: 12px;
+    display: block; 
+}
+
+.unrd h5 {
+    color: #DDDDDD;
+    font-size: 12px;
+    margin-top: 40px;
+    /* margin-left: 50px; */
+}
+
+.footer-copy-right {
+    display: flex;
+    /* direction: column; */
+    justify-content: space-evenly;
+    /* align-items:flex-start; */
+}
+
+.copy {
+    height: 0px;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+
+}
+
+.copy-right {
+    position: absolute;
+    bottom: 70px;
+
+}
+
+.copy-right-one a {
+    font-size: 12px;
+    color: #DDDDDD
+}
+
+
+.copy-right-two p {
+    position: absolute;
+    left: 50px;
+    font-size: 12px;
+    color: #DDDDDD;
+
+}
+
+#two {
+    position: relative;
+    left: 20px;
+
+}
+
+#three {
+    position: relative;
+    left: 30px;
+
+}
+
+#c-six {
+    position: relative;
+    left: 210px;
+}
+
+#c-seven{
+    position: relative;
+    left: 410px;
+}
+
+#c-frst{
+    position: relative;
+    right: 40px;
+}
+
+#c-sec{
+    position: relative;
+    right: 85px;
+}
+
+
+#c-thrd{
+    position: relative;
+    right: 200px;
+}
+
+
+#c-four{
+    position: relative;
+    right: 300px;
+}
